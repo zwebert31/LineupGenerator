@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		ED925AB51BBB3E2500BDC022 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED925AB41BBB3E2500BDC022 /* main.swift */; };
+		ED925ABE1BBB3FC700BDC022 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED925ABD1BBB3FC700BDC022 /* CSV.swift */; settings = {ASSET_TAGS = (); }; };
+		ED925AC01BBB46F600BDC022 /* LineupGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED925ABF1BBB46F600BDC022 /* LineupGenerator.swift */; settings = {ASSET_TAGS = (); }; };
+		ED925AC21BBB500200BDC022 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED925AC11BBB500200BDC022 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		EDC3C1FF1BBC786E003D1AB2 /* Lineup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC3C1FE1BBC786E003D1AB2 /* Lineup.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		ED925AB11BBB3E2500BDC022 /* LineupCreator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LineupCreator; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED925AB41BBB3E2500BDC022 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ED925ABD1BBB3FC700BDC022 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = SwiftCSV/SwiftCSV/CSV.swift; sourceTree = "<group>"; };
+		ED925ABF1BBB46F600BDC022 /* LineupGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineupGenerator.swift; sourceTree = "<group>"; };
+		ED925AC11BBB500200BDC022 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EDC3C1FE1BBC786E003D1AB2 /* Lineup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lineup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		ED925AB31BBB3E2500BDC022 /* LineupCreator */ = {
 			isa = PBXGroup;
 			children = (
+				ED925ABD1BBB3FC700BDC022 /* CSV.swift */,
+				ED925AC11BBB500200BDC022 /* Player.swift */,
 				ED925AB41BBB3E2500BDC022 /* main.swift */,
+				ED925ABF1BBB46F600BDC022 /* LineupGenerator.swift */,
+				EDC3C1FE1BBC786E003D1AB2 /* Lineup.swift */,
 			);
 			path = LineupCreator;
 			sourceTree = "<group>";
@@ -118,7 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED925AC21BBB500200BDC022 /* Player.swift in Sources */,
+				ED925ABE1BBB3FC700BDC022 /* CSV.swift in Sources */,
 				ED925AB51BBB3E2500BDC022 /* main.swift in Sources */,
+				ED925AC01BBB46F600BDC022 /* LineupGenerator.swift in Sources */,
+				EDC3C1FF1BBC786E003D1AB2 /* Lineup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +252,7 @@
 				ED925ABA1BBB3E2500BDC022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

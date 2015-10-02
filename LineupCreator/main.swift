@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+if Process.argc >= 2 {
+   LineupGenerator.generate(Process.arguments[1])
+} else {
+    assertionFailure("No contest roster was passed")
+}
 
